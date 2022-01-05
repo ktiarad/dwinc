@@ -5,7 +5,7 @@ https://github.com/othneildrew/Best-README-Template/
 
 <!-- PROJECT TITLE -->
 <div align="center">
-    <h3 align="center">Dynasty Warriors in C</h3>
+    <h1 align="center">Dynasty Warriors in C</h1>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -40,30 +40,34 @@ This project is a game played with CLI and built with C language. The characters
 * GCC (GNU Compiler Collection)
 <ol>
     <li>Check whether the GCC has been installed in your local computer.</li>
-    ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+
 ```
 gcc -v
 ```
+
     <li>If GCC is not installed, you can follow the instruction <a href="https://dev.to/gamegods3/how-to-install-gcc-in-windows-10-the-easier-way-422j">here</a> to install the GCC</li>
 </ol>
 
 ### Installation
 <ol>
     <li>Clone the repo</li>
+
 ```
 git clone https://github.com/ktiarad/dwinc.git
 ```
+
 </ol>
 
 ## Usage
 <ol>
     <li>Compile the program</li>
+
 ```
 gcc main.c mylib.c -o DW_Game
 ```
+
     <li>Execute the program</li>
+    
 ```
 DW_Game
 ```
