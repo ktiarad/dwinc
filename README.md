@@ -38,41 +38,40 @@ This project is a game played with CLI and built with C language. The characters
 
 ### Prerequisites
 * GCC (GNU Compiler Collection)
-<ol>
-    <li>Check whether the GCC has been installed in your local computer.</li>
+
+1. Check whether the GCC has been installed in your local computer.
 
 ```
 gcc -v
 ```
 
-    <li>If GCC is not installed, you can follow the instruction <a href="https://dev.to/gamegods3/how-to-install-gcc-in-windows-10-the-easier-way-422j">here</a> to install the GCC</li>
-</ol>
+2. If GCC is not installed, you can follow the instruction <a href="https://dev.to/gamegods3/how-to-install-gcc-in-windows-10-the-easier-way-422j">here</a> to install the GCC
+
 
 ### Installation
-<ol>
-    <li>Clone the repo</li>
+
+1. Clone the repo
 
 ```
 git clone https://github.com/ktiarad/dwinc.git
 ```
 
-</ol>
+
 
 ## Usage
-<ol>
-    <li>Compile the program</li>
+1. Compile the program
 
 ```
 gcc main.c mylib.c -o DW_Game
 ```
 
-    <li>Execute the program</li>
-    
+2. Execute the program
+
 ```
 DW_Game
 ```
     
-</ol>
+
 
 ## Contributing
 Feel free to contribute to this repo. You can contribute to recommend clean code, fix typos, translate the rules, or anything.
