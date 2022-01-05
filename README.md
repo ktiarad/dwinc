@@ -40,6 +40,9 @@ This project is a game played with CLI and built with C language. The characters
 * GCC (GNU Compiler Collection)
 <ol>
     <li>Check whether the GCC has been installed in your local computer.</li>
+    ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
 ```
 gcc -v
 ```
